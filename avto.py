@@ -14,7 +14,7 @@ def get_data(query):
     try:
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
+            user="root_2",
             password=DB_PASSWORD,
             database="avtosalon"
         )
